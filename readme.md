@@ -31,8 +31,8 @@ end
     ---@field public y number y
     ```
 ## 用这样的接口和结构开发lua时，vscode + lua 会自动提示
-![](readme_image/lua%E6%B3%A8%E9%87%8A.png)
-![](readme_image/struct%E6%B3%A8%E9%87%8A.png)
+![](https://github.com/kinly/lua_doc_export/blob/master/readme_image/lua%E6%B3%A8%E9%87%8A.png)
+![](https://github.com/kinly/lua_doc_export/blob/master/readme_image/struct%E6%B3%A8%E9%87%8A.png)
 
 ## 导出的文档效果
 - 导出的结果在 `out` 目录
