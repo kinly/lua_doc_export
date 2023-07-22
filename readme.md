@@ -94,3 +94,4 @@ TypeError: cb.apply is not a function
 - gitbook init
 - gitbook serve
 - 本地浏览器: http://localhost:4000/ 就可以看到页面版本的样子了
+- 更新后重新发布：gitbook build & gitbook serve
