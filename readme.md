@@ -95,3 +95,28 @@ TypeError: cb.apply is not a function
 - gitbook serve
 - 本地浏览器: http://localhost:4000/ 就可以看到页面版本的样子了
 - 更新后重新发布：gitbook build & gitbook serve
+
+### plugin
+#### toc
+- 安装
+``` bash
+npm install gitbook-plugin-intopic-toc
+```
+- gitbook 顶层目录新建 book.json 文件
+``` json
+{
+    "plugins": [
+      "intopic-toc"
+    ],
+    "pluginsConfig": {
+      "intopic-toc": {
+        "selector": ".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section h5, .markdown-section h6",
+        "mode": "nested",
+        "maxDepth": 2,
+        "isCollapsed": false,
+        "isScrollspyActive": true,
+        "visible": true
+      }
+    }
+}
+```
